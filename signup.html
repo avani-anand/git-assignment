@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup page</title>
+
+
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+          
+        }
+
+   body{
+             font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            background-color: #171515;
+            flex-direction: column;
+             justify-content: center;
+             align-items: center;
+             height: 100vh;
+             text-transform: capitalize;
+   }
+
+    .container{
+                width: 400px;
+               height: 550px;
+               border-radius: 5px;
+                background-color: #fff;
+                padding: 20px;
+             }
+
+    form{
+    display: flex;
+    flex-direction: column;
+           }
+   h1{
+    text-align: center;
+    margin: 20px 0px;
+   }
+   .box input,.box select{
+    border: 2px solid;
+    border-radius: 4px;
+    padding: 8px 0px;
+    width: 100%;
+     color: black;
+     transition: 0.2s;
+     margin-top: 3px;
+   }
+   a{
+    background-color: #171515;
+   }
+
+  a{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    border: 1px solid;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+
+a:hover{
+    background-color: #fff;
+    color: #171515;
+}
+.box input,.box select:focus{
+border: 1px solid;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>singup</h1>
+        <form action="" class="box">
+        <label for="">name:</label>
+         <input type="text" required="" >    <br>
+        
+        <label for="" >batch:</label>
+        <select name="" id="batch">
+          <option value="sigma-1.0">sigma-1.0</option>
+          <option value="sigma-2.0">sigma-2.0</option>
+
+        </select>
+           <br>
+
+         
+        
+        <label for="">age:</label>
+         <input type="number" required="" ><br>
+
+
+        <label for="">email:</label>
+         <input type="email" required="" ><br>
+        
+        <label for="">password:</label>
+         <input type="password" required="" ><br>
+        
+      
+         <a href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Signup
+          </a>
+       
+        </form>
+
+    </div>
+</body>
+</html>
